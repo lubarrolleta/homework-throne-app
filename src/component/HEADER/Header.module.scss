@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    z-index: 11;
+    background-color: black;
+    .imgFondo {
+        height: auto;
+        max-width: 100%;
+        object-fit: cover;
+        // background-image: url('../../assets/img/header.png');
+        // background-position: center;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-attachment: scroll;
+    }
+}

@@ -1,0 +1,32 @@
+.content {
+    width: 100%;
+    .contenido {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 9px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .section {
+            width: 50%;
+            box-sizing: border-box;
+        }
+        .describe {
+            min-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .photo {
+            // max-width: 300px;
+            img {
+                max-height: 400px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

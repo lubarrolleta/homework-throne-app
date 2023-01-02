@@ -1,0 +1,16 @@
+.menu {
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    max-width: 100%;
+    min-height: 450px;
+    overflow: overlay;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    z-index: 10;
+}
